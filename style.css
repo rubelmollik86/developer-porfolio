@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    
 
 }
 
@@ -14,15 +15,18 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
-    width: 50%;
-    padding-left: 5%;
+    width: 45%;
+
+
 }
 
 .half-width img {
     width: 80%;
+    padding-left: ;
 
 }
 
@@ -34,11 +38,23 @@ section {
     font-weight: 700;
     color: white;
     padding-top: 5px;
-   
+
+
 }
 
 .top-bannar {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+
+.Dreeam-Big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    align-items: center;
+}
+.pic{
+    padding-left: 270px;
 }
