@@ -8,6 +8,9 @@ body {
 h1 {
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 
 .orange-color {
     color: orange;
@@ -58,4 +61,31 @@ h1 {
 }
 .pic{
     padding-left: 270px;
+}
+.experence-item{
+    box-shadow: 15px 15px 45px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.experince-artea{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#web-dev-experience{
+    border-left: 8px solid;
+    border-image: linear-gradient(salmon,purple);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 8px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
